@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Widgets</string>
+
+    <string name="tap_to_roll">Tap to roll</string>
+
+    <string name="btn_animate">Animate</string>
+    <string name="btn_counter">Counter</string>
+    <string name="btn_gradient">Gradient</string>
+    <string name="btn_reset">Reset</string>
+</resources>

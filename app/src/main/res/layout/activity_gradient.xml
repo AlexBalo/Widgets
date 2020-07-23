@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.widgets.gradient.GradientImageView
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gradient_height"
+        android:layout_margin="@dimen/two_unit_dp" />
+
+    <Button
+        android:id="@+id/animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/two_unit_dp"
+        android:text="@string/btn_animate" />
+
+</LinearLayout>
